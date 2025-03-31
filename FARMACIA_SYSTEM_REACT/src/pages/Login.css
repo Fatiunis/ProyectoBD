@@ -1,0 +1,25 @@
+.login-container {
+    max-width: 350px;
+    margin: auto;
+    padding: 20px;
+    background: white;
+    box-shadow: var(--bs-box-shadow);
+    text-align: center;
+    border-radius: 8px;
+}
+
+/* Centrar el formulario en pantalla */
+.fullscreen-center {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Inputs */
+.login-container input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+}

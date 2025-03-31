@@ -1,0 +1,20 @@
+[
+    {
+        "nombre": "Farmacéutica S.A.",
+        "telefono": "555-1234",
+        "empresa": "Farmacéutica S.A.",
+        "productos": ["Paracetamol", "Ibuprofeno"]
+    },
+    {
+        "nombre": "Distribuidora Salud",
+        "telefono": "555-5678",
+        "empresa": "Distribuidora Salud",
+        "productos": ["Amoxicilina", "Omeprazol"]
+    },
+    {
+        "nombre": "Medicamentos Express",
+        "telefono": "555-8765",
+        "empresa": "Medicamentos Express",
+        "productos": ["Aspirina", "Vitamina C"]
+    }
+]

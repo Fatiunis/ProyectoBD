@@ -1,0 +1,18 @@
+.acceso-denegado {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.acceso-denegado .alert {
+    font-size: 18px;
+    padding: 20px;
+    width: 50%;
+    max-width: 500px;
+}
+
+.acceso-denegado a {
+    margin-top: 15px;
+}

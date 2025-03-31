@@ -1,0 +1,167 @@
+/* Colores personalizados */
+:root {
+    --bs-primary: #8B0000;  /* Rojo oscuro */
+    --bs-secondary: #5A2A27; /* Marrón oscuro */
+    --bs-light: #F8ECE0; /* Beige */
+    --bs-dark: #2D1E1B; /* Marrón oscuro profundo */
+}
+
+/* Personalización de Navbar */
+.navbar {
+    background-color: var(--bs-primary) !important;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white !important;
+}
+
+.nav-link {
+    font-size: 1.1rem;
+    color: var(--bs-light) !important;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+    color: #FFD700 !important; /* Dorado */
+}
+
+/* Sidebar de Navegación */
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: var(--bs-dark) !important;
+    color: white;
+    overflow-y: auto;
+    padding-top: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.sidebar .nav-link {
+    color: var(--bs-light) !important;
+    padding: 12px 20px;
+    transition: background 0.3s ease-in-out;
+}
+
+.sidebar .nav-link:hover {
+    background-color: var(--bs-secondary) !important;
+    color: white !important;
+}
+
+/* Ajustar el contenido principal */
+.main-content {
+    margin-left: 250px; /* Dejar espacio para la sidebar */
+    flex-grow: 1;
+    padding: 20px;
+}
+
+/* Estilos para botones */
+.btn-primary {
+    background-color: var(--bs-primary) !important;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: var(--bs-secondary) !important;
+}
+
+.btn-danger {
+    background-color: #A52A2A !important; /* Marrón rojizo */
+    border: none;
+}
+
+.btn-danger:hover {
+    background-color: #732020 !important;
+}
+
+/* Estilos para el Footer */
+footer {
+    width: 100%;
+    background-color: var(--bs-dark);
+    color: var(--bs-light);
+    text-align: center;
+    padding: 15px 0;
+    position: relative;
+    bottom: 0;
+}
+
+/* Ajustes de tablas */
+.table {
+    background-color: white !important;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.table th {
+    background-color: var(--bs-primary) !important;
+    color: white !important;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: var(--bs-light);
+}
+
+/* Formularios */
+.form-control {
+    border-radius: 8px;
+    border: 1px solid var(--bs-secondary);
+}
+
+.form-control:focus {
+    border-color: var(--bs-primary);
+    box-shadow: 0px 0px 10px rgba(139, 0, 0, 0.3);
+}
+
+/* Acordeón */
+.accordion-button {
+    font-size: 1.1rem;
+    color: var(--bs-dark);
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: var(--bs-light);
+    color: var(--bs-primary);
+}
+
+/* Carruseles */
+.carousel-inner img {
+    max-width: 400px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Ajuste de imágenes en las páginas de planes */
+.plan-image {
+    width: 100%;
+    max-width: 400px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Media Query para Ajustes Responsivos */
+@media (max-width: 768px) {
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    
+    .main-content {
+        margin-left: 0;
+        padding: 10px;
+    }
+
+    .carousel-inner img {
+        max-width: 100%;
+        height: auto;
+    }
+}

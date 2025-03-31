@@ -1,0 +1,22 @@
+# node
+node_modules/
+dist/
+.env
+
+# php
+vendor/
+*.log
+*.tmp
+
+# Sistema
+*.zip
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Archivos sensibles
+config/
+db.php

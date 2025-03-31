@@ -1,0 +1,14 @@
+[
+    {
+        "nombre": "Paracetamol",
+        "precio": "10"
+    },
+    {
+        "nombre": "Ibuprofeno",
+        "precio": "15"
+    },
+    {
+        "nombre": "Amoxicilina",
+        "precio": "25"
+    }
+]

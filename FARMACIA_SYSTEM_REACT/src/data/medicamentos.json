@@ -1,0 +1,48 @@
+[
+    {
+      "id": 1,
+      "nombre": "Paracetamol",
+      "principioActivo": "Paracetamol",
+      "descripcion": "Analgésico y antipirético.",
+      "marca": "Genérico",
+      "categoria": "Analgésico",
+      "presentacion": "Tableta",
+      "concentracion": "500mg",
+      "modoCompra": "Libre",
+      "foto": "/paracetamol.webp",
+      "precio": 5.75,
+      "stock": 12,
+      "comentarios": []
+    },
+    {
+      "id": 2,
+      "nombre": "Ibuprofeno",
+      "principioActivo": "Ibuprofeno",
+      "descripcion": "Antiinflamatorio no esteroideo.",
+      "marca": "Advil",
+      "categoria": "Antiinflamatorio",
+      "presentacion": "Cápsula",
+      "concentracion": "400mg",
+      "modoCompra": "Libre",
+      "foto": "/ibuprofeno.jpg",
+      "precio": 8.90,
+      "stock": 20,
+      "comentarios": []
+    },
+    {
+      "id": 3,
+      "nombre": "Amoxicilina",
+      "principioActivo": "Amoxicilina",
+      "descripcion": "Antibiótico de amplio espectro.",
+      "marca": "Normon",
+      "categoria": "Antibiótico",
+      "presentacion": "Tableta",
+      "concentracion": "500mg",
+      "modoCompra": "Con receta",
+      "foto": "/amoxicilina.jpg",
+      "precio": 14.25,
+      "stock": 8,
+      "comentarios": []
+    }
+  ]
+  

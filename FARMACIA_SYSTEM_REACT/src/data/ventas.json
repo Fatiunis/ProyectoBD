@@ -1,0 +1,30 @@
+[
+    {
+        "cliente": "Carlos Pérez",
+        "productos": [
+            { "nombre": "Paracetamol", "cantidad": 2 },
+            { "nombre": "Ibuprofeno", "cantidad": 1 }
+        ],
+        "total": 35,
+        "metodoPago": "Efectivo",
+        "fecha": "10/03/2024"
+    },
+    {
+        "cliente": "Ana López",
+        "productos": [
+            { "nombre": "Amoxicilina", "cantidad": 1 }
+        ],
+        "total": 25,
+        "metodoPago": "Tarjeta",
+        "fecha": "11/03/2024"
+    },
+    {
+        "cliente": "Javier Gómez",
+        "productos": [
+            { "nombre": "Ibuprofeno", "cantidad": 3 }
+        ],
+        "total": 45,
+        "metodoPago": "Transferencia",
+        "fecha": "12/03/2024"
+    }
+]

@@ -1,0 +1,90 @@
+.dashboard-container {
+    display: flex;
+}
+
+/* Contenido */
+.content {
+    margin-left: 260px;
+    padding: 20px;
+    width: 100%;
+    min-height: 100vh;
+    background: var(--bs-light);
+}
+
+/* Tarjetas del Dashboard */
+.dashboard-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: var(--bs-box-shadow);
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    transition: transform 0.2s ease;
+}
+
+.dashboard-card:hover {
+    transform: scale(1.05);
+}
+
+/* Botón de cierre de sesión */
+.logout-btn {
+    background-color: var(--bs-danger);
+    padding: 12px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 100%;
+    transition: background 0.3s ease;
+}
+
+.logout-btn:hover {
+    background-color: var(--bs-red);
+}
+
+/* Gráficos */
+.graficos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.grafico {
+    width: 45%;
+    background: white;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: var(--bs-box-shadow);
+    transition: transform 0.2s ease;
+}
+
+.grafico:hover {
+    transform: scale(1.05);
+}
+
+.grafico h3 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* Estilos para el filtro de fecha */
+.filtro-fecha {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.filtro-fecha label {
+    font-weight: bold;
+}
+
+.filtro-fecha input {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid var(--bs-secondary);
+}

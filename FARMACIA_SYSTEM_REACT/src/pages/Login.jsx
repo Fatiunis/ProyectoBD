@@ -14,7 +14,7 @@ const Login = () => {
         e.preventDefault();
 
         try {
-            const response = await fetch("http://localhost/sistema_adfs/login.php", {
+            const response = await fetch("http://localhost/Proyecto_ADFS_BD/sistema_adfs/auth/login.php", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/x-www-form-urlencoded",

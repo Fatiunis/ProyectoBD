@@ -1,0 +1,70 @@
+.gestion-pacientes-container {
+    padding: 20px;
+    max-width: 95%;
+    margin: auto;
+  }
+  
+  .titulo {
+    text-align: center;
+    font-weight: bold;
+    color: #1f9b1f; /* Verde del sistema */
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .filtros-container {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .filtros-container input, .filtros-container button {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  button.btn-info {
+    background-color: #e1ad01; /* Mostaza */
+    border: none;
+    color: white;
+  }
+  
+  button.btn-info:hover {
+    background-color: #c99400; /* Mostaza oscuro */
+  }
+  
+  button.btn-warning {
+    background-color: #d9534f; /* Rojo desactivado */
+    border: none;
+    color: white;
+  }
+  
+  button.btn-warning:hover {
+    background-color: #a71d2a; /* Rojo más oscuro */
+  }
+  
+  button.btn-success {
+    background-color: #1f9b1f; /* Verde activado */
+    border: none;
+    color: white;
+  }
+  
+  button.btn-success:hover {
+    background-color: #147914; /* Verde más oscuro */
+  }
+  
+  .modal-content {
+    border-radius: 8px;
+    padding: 20px;
+  }
+  
+  .text-success {
+    color: #1f9b1f !important;
+  }
+  
+  .text-danger {
+    color: #a71d2a !important;
+  }
+  

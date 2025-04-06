@@ -131,3 +131,20 @@ Array
 )
 
 
+INPUT CRUDO:
+
+
+DECODIFICADO:
+
+
+INPUT CRUDO:
+{"correo":"fatima@gmail.com","password":"12345"}
+
+DECODIFICADO:
+Array
+(
+    [correo] => fatima@gmail.com
+    [password] => 12345
+)
+
+
